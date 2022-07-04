@@ -16,5 +16,7 @@ class DadatbaseRepositiry  : UserRepositiry {
 class FirebaseRepositiry : UserRepositiry {
     override fun saveUser(email: String, password: String) {
         Log.d("Tag", "user saved in firebase")
+        Log.d("Tag", "user saved in firebase")
+        Log.d("Tag", "user saved in firebase")
     }
 }
